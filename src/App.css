@@ -1,0 +1,110 @@
+.a{
+    
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+
+}
+ .navbar-nav .nav-item .nav-link:hover{
+  color: yellow;
+  text-decoration: underline;
+  background-color: black;
+  border-radius: 20%;
+  
+}
+ul li a:hover{
+  color: yellow;
+
+}
+.carousel-item{
+  height: 91vh;
+  
+}
+.menu-icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+   .icons{
+      font-size: 20px;
+     color: yellow;
+  } 
+  .img-fluid{
+    align-items: center;
+    margin-left: 3px;
+  }
+
+  .team .team_box .profile img{
+width: 150px;
+  }
+  .team .team_box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 13%;
+  }
+  .team .team_box .profile{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    transition: 0.4s;
+  }
+  .team .team_box .profile img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    z-index: 2;
+    transition: 0.4s;
+  }
+  .team .team_box .profile:hover{
+    border-radius: 20%;
+    height: 320px;
+  }
+  .team .team_box .profile:hover img{
+    border-radius: 20px;
+    margin-top: -230px;
+  }
+
+  .team .team_box .profile .info{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transition: 0.4s;
+  }
+  .team .team_box .profile:hover .info{
+    top: 60%;
+  }
+  .team .team_box .profile .info .team_icons i{
+    font-size: 20px;
+    margin: 10px 5px 5px 0;
+
+  }
+  .team_icons i:hover{
+    color: yellow;
+  }
+
+  .footer_main{
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+   .footer_tag{
+  
+    text-align: center;
+  }
